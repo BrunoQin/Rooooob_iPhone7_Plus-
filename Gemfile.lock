@@ -1,0 +1,56 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bacon (1.2.0)
+    byebug (9.0.5)
+    childprocess (0.5.9)
+      ffi (~> 1.0, >= 1.0.11)
+    chromedriver-helper (0.0.8)
+      nokogiri (~> 1.6)
+      version_sorter (~> 1.1)
+    commonwatir (4.0.0)
+    ffi (1.9.14)
+    headless (1.0.2)
+    httparty (0.13.3)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.3)
+    mini_portile2 (2.1.0)
+    minitest (5.9.0)
+    multi_xml (0.5.5)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    pkg-config (1.1.7)
+    rubyzip (1.2.0)
+    selenium-webdriver (2.53.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    version_sorter (1.1.0)
+    watir (5.0.0)
+      commonwatir (~> 4)
+      watir-webdriver
+    watir-webdriver (0.9.1)
+      selenium-webdriver (>= 2.46.2)
+    watir-webdriver-performance (0.2.4)
+      watir-webdriver
+    websocket (1.2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bacon
+  byebug
+  chromedriver-helper
+  headless
+  httparty
+  minitest (>= 5.3.4)
+  selenium-webdriver
+  watir
+  watir-webdriver (>= 0.9.1)
+  watir-webdriver-performance
+
+BUNDLED WITH
+   1.12.5
